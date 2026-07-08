@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WEBTOON - The King's Reign</title>
+<link rel="stylesheet" href="lebron.css">
+</head>
+<body>
+<header>
+<div class="logo">WEBTOON x LeBron</div>
+<button id="themeToggle" class="nav-btn"> Light Mode</button>
+</header>
+<main class="content-container">
+<img
+src="https://i.pinimg.com/736x/5c/a7/c9/5ca7c96913868a3cc446cddece2a0b82.jpg"
+alt="The King's Reign Webtoon Banner" class="featured-image">
+<h2>The King's Reign: Chosen One</h2>
+<div class="series-info">
+<div class="stats-row">
+<span class="stat-item"><span class="icon"> </span> 302.5M</span>
+<span class="stat-item"><span class="icon"> </span> 4.3M</span>
+</div>
+<div class="schedule-row">
+<span class="up-badge">UP</span>
+<span class="schedule-text">EVERY TUESDAY</span>
+</div>
+<p class="synopsis-text">
+Being deemed "The Chosen One" was supposed to be simple: claim the crown,
+break the Akron curse, and ascend as the undisputed All-Time Ruler. Easier said than done
+when LeBron's early reign is thwarted by veteran warlords and a kingdom lacking a true
+army. To taste absolute power, he makes a controversial pact, abandoning his homeland
+for the glittering shores of the South Beach Empire to conquer the realm alongside rival
+kings. He might have secured his first crowns, but the ghosts of his forsaken city refuse to
+sleep. When an unstoppable Golden Armada rises in the west, LeBron is dragged back to
+his roots. Can he restore his broken kingdom and fulfill his legendary promise, or will his
+legacy fall to an unbeatable dynasty?
+</p>
+<a href="#" class="first-episode-btn">
+<span>First episode</span>
+<span class="arrow">&gt;</span>
+</a>
+</div>
+<section class="interactive-card">
+<h3>Fast Pass Calculator</h3>
+<p class="synopsis-text">Want to read ahead? Calculate the coins needed to unlock
+future episodes.</p>
+<div class="calculator-form">
+<label for="episodeCount">Episodes to unlock (5 coins each):</label>
+<input type="number" id="episodeCount" min="1" value="1">
+<button id="calculateBtn" class="calc-btn">Calculate Coins</button>
+<div class="result-box">
+<strong>Total Needed: </strong> <span id="coinTotal">5 Coins</span>
+</div>
+</div>
+</section>
+<h3>Latest Action Arcs</h3>
+<p class="synopsis-text" style="font-size: 0.9rem; margin-top: -10px;">Click an arc
+below to view its synopsis and preview image.</p>
+<ul class="custom-list" id="arcList">
+<li data-title="Arc 1: The Hometown Promise"
+data-img="https://images.unsplash.com/photo-1546519638-
+68e109498ffc?auto=format&fit=crop&q=80&w=800&h=400"
+data-desc="The young prodigy, dubbed 'The Chosen One' is drafted to his struggling
+local kingdom in search of their first ring. LeBron, burdened by impossible expectations, learns to wield his raw power and
+establish his presence across the realm, leading a ragtag militia to their first taste of glory
+before realizing he needs a stronger army to win the ultimate war. Ultimately, the decision lies in whether he stays, or abandon his squad in search for something greater">
+<strong>Arc 1:</strong> The Hometown Promise
+</li>
+<li data-title="Arc 2: Rise of the South Beach Empire"
+data-img="https://images.unsplash.com/photo-1504450758481-
+7338eba7524a?auto=format&fit=crop&q=80&w=800&h=400"
+data-desc="Forging a pact with two legendary warriors in the fiery South, The King
+establishes a dominant new empire in southern realm. At the peak of his powers, LeBron learns the ruthless art of absolute victory,
+dominantly claiming his first two crowns while embracing his role as the realm's ultimate villain.">
+<strong>Arc 2:</strong> Rise of the South Beach Empire
+</li>
+<li data-title="Arc 3: Hero's Comeback"
+data-img="https://images.unsplash.com/photo-1515523110800-
+9415d13b84a8?auto=format&fit=crop&q=80&w=800&h=400"
+data-desc="In a shocking twist, The King returns to his devastated homeland.
+Facing the unstoppable Golden Armada. Faced against all odds, he orchestrates a
+miraculous comeback, fulfilling his sacred promise and breaking the ancient curse upon
+his city.">
+<strong>Arc 3:</strong> Hero's Comeback
+</li>
+<li data-title="Arc 4: The Royal Legacy"
+data-img="https://images.unsplash.com/photo-1519861531473-
+9200262188bf?auto=format&fit=crop&q=80&w=800&h=400"
+data-desc="Completing his hometown promise, LeBron seeks to immortalize his legacy. Traveling to the glamorous Western Kingdom, The King faces harder competition for the legendary ring. Battling trials and fostering a new generation of promising warriors,
+he shatters the ancient seal, cementing his claim to the ultimate throne.">
+<strong>Arc 4:</strong> The Royal Legacy
+</li>
+</ul>
+<div id="arcPreviewBox" class="arc-preview">
+<img id="arcPreviewImage" src="" alt="Arc Preview">
+<h4 id="arcPreviewTitle"></h4>
+<p id="arcPreviewDesc"></p>
+</div>
+</main>
+<footer>
+<p>&copy; 2026 WEBTOON Entertainment Inc. All Rights Reserved.</p>
+</footer>
+<script src="lebron.js"></script>
+</body>
+</html>
